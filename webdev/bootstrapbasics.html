@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- first link is to downloaded css file, second is to hosted file -->
+	<style type="text/css">
+		.btn-danger {
+			color: blue;
+			background: orange;
+		}
+	</style>
+	<!-- can add own style to bootstrap elements -->
+</head>
+<body>
+
+<h1>Bootstrap Basics</h1>
+<button class="btn btn-success btn-xs btn-danger">CLICK ME</button>
+<button class="btn btn-success btn-xs active">CLICK ME</button>
+<button class="btn btn-success btn-xs" disabled="disabled">CLICK ME</button>
+
+<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+<div class="jumbotron">
+	<h1>This is a jumbotron</h1>
+	<p>;alskjfd a;lskdfj;laksjfd ;alskdjf</p>
+	<button class="btn btn-success btn-lg">Hi there</button>
+</div>
+
+<div class="container">
+	<h1>Bootstrap Basics</h1>
+	<button class="btn btn-success btn-xs btn-danger">CLICK ME</button>
+	<button class="btn btn-success btn-xs active">CLICK ME</button>
+	<button class="btn btn-success btn-xs" disabled="disabled">CLICK ME</button>
+	<div class="jumbotron">
+		<h1>This is a jumbotron</h1>
+		<p>;alskjfd a;lskdfj;laksjfd ;alskdjf</p>
+		<button class="btn btn-success btn-lg">Hi there</button>
+	</div>
+
+	<form>
+        <div class="form-group">
+    		<label for="exampleInputEmail1">Email address</label>
+    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  		</div>
+  		<div class="form-group">
+    		<label for="exampleInputPassword1">Password</label>
+    		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  		</div>
+  		<div class="form-group">
+   			<label for="exampleInputFile">File input</label>
+    		<input type="file" id="exampleInputFile">
+    		<p class="help-block">Example block-level help text here.</p>
+  		</div>
+  		<div class="checkbox">
+    		<label>
+      		<input type="checkbox"> Check me out
+    		</label>
+  		</div>
+  		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>
+
+
+
+<!-- container will give spacing/padding and center things inside of it (quick improvement w/o using grid system)  -->
+
+
+
+</body>
+</html>

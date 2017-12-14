@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+    <!-- adding everything inside container does spacing for us, centered -->
+    <!-- if you put nav inside container, then nav bar will be cut off/restricted, which we don't want -->
+    	<div class="navbar-header">
+	    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      		</button>
+        	<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+    	</div>
+    	<!-- have to have the links within the div collapse in order for it to collapse whenever mobile size is hit -->
+    	<!-- id determines what is shown in the "hamburger" -->
+    	<div class="collapse navbar-collapse" id="bs-nav-demo">
+	    	<ul class="nav navbar-nav">
+	    		<li><a href="#">About</a></li>
+	    		<li><a href="#">Contact</a></li>
+	    	</ul>
+	    	<ul class="nav navbar-nav navbar-right">
+	    		<li><a href="#">Sign Up</a></li>
+	    		<li><a href="#">Login</a></li>
+	    	</ul>
+    	</div>
+    </div>
+</nav>
+<div class="container">
+	<div class="jumbotron">
+		<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
+		<p>A bunch of beautiful images that I didn't take</p>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+		<!-- THUMBNAIL SIZES THE IMAGE TO FIT AND GIVES BORDER -->
+		<!-- setting sm-6 by default also sets med to 6 -->
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				<p>M3</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+		<!-- THUMBNAIL SIZES THE IMAGE TO FIT AND GIVES BORDER -->
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+		<!-- THUMBNAIL SIZES THE IMAGE TO FIT AND GIVES BORDER -->
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="http://media.caranddriver.com/images/media/331369/leak-first-official-photos-of-2015-bmw-m3-sedan-and-m4-coupe-photo-559158-s-450x274.jpg">
+				M3
+			</div>
+		</div>
+
+
+		
+	</div>
+</div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">	
+</script>
+<script 
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+  crossorigin="anonymous">
+</script>
+</body>
+</html>
